@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Length converter</title>
+</head>
+<body>
+    <main>
+
+        <form class="form">
+            <h1>Length converter</h1>
+            <input type="number" name="converter" id="myInputID">
+            
+            <label class="label" for="fromIDValue">From converter</label>
+            <select class="fromUnit" name="fromIDValue" id="fromIDValue">
+                <option value="mm">MM</option>
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+                <option value="km">KM</option>
+                <option value="mil">Mil</option>
+            </select>
+
+            <label class="label" for="toIDValue">To converter</label>
+            <select class="toUnit" name="toIDValue" id="toIDValue">
+                <option value="mm">MM</option>
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+                <option value="km">KM</option>
+                <option value="mil">Mil</option>
+            </select> 
+        </form>
+
+        <div class="div">
+            <button class="button" onclick="convertLength()">Submit</button>
+            <p class="p" id="displayValueID"></p>
+        </div>
+
+    </main>
+</body>
+</html
