@@ -71,3 +71,18 @@ form{
     color: lightgreen;
 
 }
+
+/*responsive opp til desktop*/
+@media(min-height: 1025px){
+
+}
+
+/*responsive opp til tablet*/
+@media(min-height: 770px){
+
+}
+
+/*responsive opp til mobil*/
+@media(min-height: 340px){
+
+}
