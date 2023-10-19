@@ -61,3 +61,5 @@ function convertLength() {
 }
 
 
+//nor det kommer til framgangs måten min så liker eg og holde meg til den metoden eg blit lært opp i.
+//og ikke bruke en metode eg ikke lært opp lære eg ingen tin av 
